@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title }}</title>
+<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<style>
+body {
+  margin: 0;
+  color: rgb(55, 53, 47);
+  font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+main { max-width: 708px; margin: 0 auto; padding: 80px 96px 30vh; }
+main > h1:first-child { font-size: 40px; line-height: 1.2; margin: 0 0 24px; }
+h1 { font-size: 1.875em; margin: 2em 0 4px; font-weight: 600; }
+h2 { font-size: 1.5em; margin: 1.4em 0 1px; font-weight: 600; }
+h3 { font-size: 1.25em; margin: 1em 0 1px; font-weight: 600; }
+p { margin: 2px 0; padding: 3px 2px; }
+a { color: inherit; text-decoration: underline; text-decoration-color: rgba(55, 53, 47, 0.4); text-underline-offset: 2px; }
+img { max-width: 100%; display: block; margin: 4px auto; }
+ul, ol { padding-inline-start: 1.7em; margin: 2px 0; }
+li { padding: 3px 2px; }
+blockquote { margin: 4px 0; padding: 3px 14px; border-left: 3px solid currentColor; font-size: 1.2em; }
+hr { border: 0; border-top: 1px solid rgba(55, 53, 47, 0.16); margin: 12px 0; }
+code { font-family: SFMono-Regular, Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; font-size: 85%; color: #eb5757; background: rgba(135, 131, 120, 0.15); border-radius: 4px; padding: 0.2em 0.4em; }
+aside { display: flex; gap: 8px; background: rgb(241, 241, 239); border-radius: 4px; padding: 16px 16px 16px 12px; margin: 4px 0; }
+aside > p:first-child { margin: 0; padding: 0; }
+#markdown-toc, #markdown-toc ul { list-style: none; padding-inline-start: 0; }
+#markdown-toc ul { padding-inline-start: 24px; }
+#markdown-toc a { color: rgba(55, 53, 47, 0.65); text-decoration-color: rgba(55, 53, 47, 0.2); }
+@media (max-width: 900px) { main { padding: 40px 24px 30vh; } }
+</style>
+</head>
+<body>
+<main>
+{{ content }}
+</main>
+</body>
+</html>
